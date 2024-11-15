@@ -31,3 +31,6 @@ $string = (function (): string {})();
 		'~(~' => function () {},
 	]
 );
+
+class MyStrings extends \Nette\Utils\Strings {}
+MyStrings::replace('', 'nok', '');

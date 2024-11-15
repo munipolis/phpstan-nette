@@ -71,6 +71,10 @@ class RegularExpressionPatternRuleTest extends RuleTestCase
 					'Regex pattern is invalid: Compilation failed: missing closing parenthesis at offset 1 in pattern: ~(~',
 					26,
 				],
+				[
+					sprintf('Regex pattern is invalid: Delimiter must not be %s in pattern: nok', $messagePart),
+					36,
+				],
 			],
 		);
 	}
