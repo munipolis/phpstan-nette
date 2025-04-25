@@ -1,5 +1,5 @@
 {
-	"name": "phpstan/phpstan-nette",
+	"name": "munipolis/phpstan-nette",
 	"type": "phpstan-extension",
 	"description": "Nette Framework class reflection extension for PHPStan",
 	"license": [
